@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+}
+
+header ul img{
+    height: 40px;
+}
+
+body{
+    background-color: rgb(65, 41, 199);
+    font-family: "Playfair Display", serif;
+}
+
+header{
+    background-color: rgb(28, 88, 158);
+    padding: 8px;
+}
+
+header h1, header h5{
+    font-family: "Gowun Batang", serif;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 8px 0;
+    max-width: 1280;
+    width: 100%;
+}
+
+header li{
+    display: inline;
+    margin-right: 12px;
+}
