@@ -18,7 +18,7 @@ header{
     padding: 8px;
 }
 
-header h1, header h5{
+h1, h5, h2, h3{
     font-family: "Gowun Batang", serif;
 }
 
@@ -28,9 +28,76 @@ header h1, header h5{
     margin: 8px 0;
     max-width: 1280;
     width: 100%;
+    text-align: center;
+}
+
+section{
+    display: block;
+}
+section h2{
+    margin: 16px 0;
 }
 
 header li{
     display: inline;
     margin-right: 12px;
+}
+
+.box img{
+    margin: 8px 0;
+    height: 140px;
+}
+
+.box img:hover{
+    position: relative;
+    height: 400px;
+    
+}
+
+.box p{
+    max-width: 260px;
+    margin-bottom: 5px;
+}
+.box a{
+    color: white;
+    background-color: rgb(36, 118, 150);
+    text-decoration: none;
+}
+
+form input, form textarea, form button{
+    display: block;
+    margin: 8px 0;
+    width: 300px;
+    font-size: 10pt;
+    font-family: "Playfair Display", serif;
+}
+input{
+    text-align: center;
+}
+.container textarea{
+    height: 200px;
+    resize: none;
+}
+
+button{
+    background-color: rgb(33, 33, 116);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+}
+button:hover{
+    background-color: rgb(74, 74, 182);
+}
+
+h2{
+    font-size: 25pt;
+}
+
+h3{
+    font-size: 19pt;
+}
+
+p{
+    font-size: 14pt;
 }
